@@ -53,4 +53,5 @@ Docker를 정복해봅시다!
   docker ps
   (docker ps -a // all containers)
 
-* 
+* run container with volumemount option
+  docker run --name {{.container name}} -v {{.localVolumeDir}}:{{.sharedVolumeDir}} -it {{.image}} {{.cmd option}}
