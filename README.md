@@ -50,8 +50,10 @@ Docker를 정복해봅시다!
   docker exec -it {{container_name/Id}} /bin/bash
 
 * show running container list
+
   docker ps
   (docker ps -a // all containers)
 
 * run container with volumemount option
+
   docker run --name {{.container name}} -v {{.localVolumeDir}}:{{.sharedVolumeDir}} -it {{.image}} {{.cmd option}}
