@@ -6,8 +6,8 @@ Docker Hub를 통해 배포도 가능!
 
 
 
-`docker commit CONTAINER_ID/NAME`
-
+`docker commit CONTAINER_ID/NAME NEW_IMAGE_NAME`
+(-m : commit message 옵션 사용 가능)
 
 
 ---
