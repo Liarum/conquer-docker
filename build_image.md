@@ -1,9 +1,7 @@
 # How to Docker Image Build
-<<<<<<< HEAD
+
+
 도커 컨테이너에서 작업 후 이미지로 빌드하는 방법
-
-=======
-
 도커 컨테이너를 커밋하여 이미지로 만든 뒤 작업 환경을 구축할 때 유용하게 쓸 수 있다.
 
 Docker Hub를 통해 배포도 가능!
@@ -24,5 +22,3 @@ Docker Hub를 통해 배포도 가능!
   - -p : port forwarding 옵션, 도커 컨테이너의 포트와 로컬의 포트를 연결하여 사용하였다. Mysql 포트(보통 3306) 를 로컬의 포트와 포워딩하여 MySql 워크벤치로 컨테이너의 MySql 서버에 접근하여 작업을 편리하게 할 수 있었다. 또한 컨테이너에 구축한 Apache 서버의 가상 호스트의 포트와 포워딩하여 개발을 진행하였다.
     - 사용: docker run + -p `LOCAL_PORT:CONTAINER_PORT`
 
-  
->>>>>>> d08d149d65be536b6fa899a8852a24ec79d764e1
