@@ -60,4 +60,5 @@ Docker를 정복해봅시다!
 
 
 * show docker container’s configuration
-docker inspect IMAGE_ID/NAME
+
+  docker inspect IMAGE_ID/NAME
