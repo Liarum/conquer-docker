@@ -58,3 +58,6 @@ Docker를 정복해봅시다!
 
   docker run --name {{.container name}} -v {{.localVolumeDir}}:{{.sharedVolumeDir}} -it {{.image}} {{.cmd option}}
 
+
+* show docker container’s configuration
+docker inspect IMAGE_ID/NAME
